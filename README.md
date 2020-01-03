@@ -1,4 +1,6 @@
+
 # SG-LSTM_WHOLE_result
+ One thing to clarify,  each row contains 7552 columns. The first 7534 refer to 7534 genes, the rest of 18 columns is the same with the first value of the first row because the prediction model’s batch size is constrained to 128, thus the numbers of columns shall be divided with no remainder. 
 ## How to run it .
 ### first one of the most important file should be downloaded first:
 - link：https://pan.baidu.com/s/1XImsWAx5CIa2CvEty6oBKw 
